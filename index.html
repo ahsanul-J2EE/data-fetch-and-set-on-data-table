@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en" title="Coding design">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive HTML Table With Pure CSS - Web Design/UI Design</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+</head>
+
+<body>
+    <main class="table">
+        <section class="table__header">
+            <h1>Product's</h1>
+        </section>
+        <section class="table__body">
+            <table id="example" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr class="table-primary">
+                        <th>Image1</th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                    
+                </thead>
+                
+                <tbody class="table-warning">
+    
+                </tbody>
+
+                
+                
+            </table>
+            <div id="loadingIndicator" class=" justify-content-center">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+    <script src="script.js"></script>
+
+
+</html>
